@@ -30,10 +30,13 @@ execContainer.sh 는 *벌써 실행중인* container에 새로운 터미널을 �
 WSL는 아직 테스트를 안해봤지만, runContainer  대신 runContainerWSL을 실행하면 작동할 것으로 추정된다...
 또한 docker는 windows용 docker desktop을 설치해야 할 것이다.
 
+## TODO
+NVIDIA 등 GPU bypass testing/implementation
+
 ## Troubleshooting
 
 혹시나 gazebo 실행시 graphics driver error가 뜬다면,
 ```bash
 export LIBGL_ALWAYS_SOFTWARE=1
 ```
-를 실행하면 (아마도) 해결될 것이다.
+를 실행한 후 다시 gazebo 실행 (make px4_sitl .... 등)을 하면 (아마도) 해결될 것이다.
