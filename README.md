@@ -27,8 +27,9 @@ execContainer.sh 는 *벌써 실행중인* container에 새로운 터미널을 �
 
 
 ## WSL
-WSL는 아직 테스트를 안해봤지만, runContainer  대신 runContainerWSL을 실행하면 작동할 것으로 추정된다...
-또한 docker는 windows용 docker desktop을 설치해야 할 것이다.
+~~WSL는 아직 테스트를 안해봤지만, runContainer  대신 runContainerWSL을 실행하면 작동할 것으로 추정된다...~~
+그냥 runContainer.sh를 실행해도 잘된다. (단, WSL2 안에서 gui가 잘 된다는 가정하에서만 잘 된다.)
+또한 docker는 windows용 docker desktop을 설치해야 할 것이다.  또한, Docker -> Settings -> Resources -> WSL Integration 에서 설치된 WSL2에서 integration을 enable해야 한다.
 
 ## TODO
 NVIDIA 등 GPU bypass testing/implementation
