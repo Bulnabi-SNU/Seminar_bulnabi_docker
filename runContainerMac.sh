@@ -13,7 +13,6 @@ docker run -it --rm --privileged \
 	--env=LOCAL_USER_ID="$(id -u)" \
 	-v ./docker_home/:/home/user/:rw \
 	-v /tmp/.X11-unix:/tmp/.X11-unix  -v ~/.Xauthority:/.Xauthority \
-	--device=/dev/dri \
 	-e DISPLAY=$IP:0 \
 	--network host \
 	jaewonchung7snu/bulnabi_container:latest	
