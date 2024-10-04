@@ -27,16 +27,31 @@ execContainer.sh 는 *벌써 실행중인* container에 새로운 터미널을 �
 
 
 ## WSL
-~~WSL는 아직 테스트를 안해봤지만, runContainer  대신 runContainerWSL을 실행하면 작동할 것으로 추정된다...~~
-그냥 runContainer.sh를 실행해도 잘된다. (단, WSL2 안에서 gui가 잘 된다는 가정하에서만 잘 된다.)
-또한 docker는 windows용 docker desktop을 설치해야 할 것이다.  또한, Docker -> Settings -> Resources -> WSL Integration 에서 설치된 WSL2에서 integration을 enable해야 한다.
+docker는 windows용 docker desktop을 설치하면 된다.  또한, Docker -> Settings -> Resources -> WSL Integration 에서 설치된 WSL2에서 integration을 enable해야 한다. (안하면 에러가 뜬다.)
+
+QGC를 WSL 안에서 실행하고 싶다면, 그냥 runContainer.sh를 실행하면 된다.
+
+QGC를 윈도우에서 실행하고 싶다면 두가지 옵션이 있다.
+
+1) runContainerWSL2_Networking.sh
+
+그리고, QGC -> Application Settings -> Comm Links -> Add 이후
+UDP에서 localhost:18570 (혹은 127.0.0.1:18570)을 추가하고, 그 Comm link에 Connect 하면 된다.
+
+아래 사진을 참고하도록.
+![image](https://github.com/user-attachments/assets/c555c53a-8481-43ff-9ca7-c1a253321ffa)
+
+2) runContainer.sh
+Docker Desktop에 들어가서, Settings -> Resources -> Network에서 "Enable Host Networking"을 키면 된다. (Docker account sign-in이 필요하다.)
+이후 runContainer.sh를 실행하면 별 문제없이 돌아갈 것이다.
+
 
 ## TODO
 NVIDIA 등 GPU bypass testing/implementation
 
 ## Troubleshooting
 
-혹시나 gazebo 실행시 graphics driver error가 뜬다면,
+혹시나 gazebo나 QGC 실행시 graphics driver error가 뜬다면,
 ```bash
 export LIBGL_ALWAYS_SOFTWARE=1
 ```
