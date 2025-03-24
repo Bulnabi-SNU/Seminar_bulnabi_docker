@@ -30,7 +30,10 @@ rm -rf Micro-XRCE-DDS-Agent
 EOF
 
 # Allow sudo without password
-RUN adduser user sudo
+# 'user'가 이미 존재하는지 확인하고, 없으면 생성한 뒤 sudo 그룹에 추가
+RUN id -u user &>/dev/null || useradd -m -s /bin/bash user && \
+    usermod -aG sudo user
+
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # Add ros setup to bashrc (the home folder is completly mounted to host, so no .bashrc)

@@ -1,0 +1,17 @@
+Gazebo multi-robot simulator, version 11.14.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1742837342 615719800) [Msg] Waiting for master.
+(1742837342 625477312) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1742837342 625491785) [Msg] Publicized address: 192.168.0.38
+(1742837342 798812682) [Msg] Loading world file [/home/user/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/empty.world]
+(1742837343 47345878) Init world[default]
+(1742837343 338046575) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: iris::gps0 using gps topic "gps0"
+(1742837343 338103732) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
+(1742837343 468788755) [Msg] Connecting to PX4 SITL using TCP
+(1742837343 468796935) [Msg] Lockstep is enabled
+(1742837343 468802320) [Msg] Speed factor set to: 1
+(1742837343 469244211) [Msg] Using MAVLink protocol v2.0

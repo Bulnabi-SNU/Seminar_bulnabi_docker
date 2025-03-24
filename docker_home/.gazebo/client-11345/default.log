@@ -1,0 +1,13 @@
+Gazebo multi-robot simulator, version 11.14.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1742837346 505744443) [Msg] Waiting for master.
+(1742837346 510307184) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1742837346 510362420) [Msg] Publicized address: 192.168.0.38
+(1742837346 510578573) Loaded .ini file from: "/home/user/.gazebo/gui.ini"
+(1742837346 616754929) [Wrn] [GuiIface.cc:114] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+(1742837348 743527021) No spacenav daemon found. Spacenav functionality is disabled
+(1742837348 749060256) Loaded GUI plugin[libgazebo_user_camera_plugin.so]
