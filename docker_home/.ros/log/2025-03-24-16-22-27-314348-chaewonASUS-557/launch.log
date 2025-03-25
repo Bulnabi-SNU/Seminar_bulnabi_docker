@@ -1,7 +1,0 @@
-1742833347.3149395 [INFO] [launch]: All log files can be found below /home/user/.ros/log/2025-03-24-16-22-27-314348-chaewonASUS-557
-1742833347.3151119 [INFO] [launch]: Default logging verbosity is set to INFO
-1742833347.3724337 [INFO] [turtlesim_node-1]: process started with pid [559]
-1742833347.3725820 [INFO] [turtlesim_node-2]: process started with pid [561]
-1742833374.5036550 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1742833374.5237279 [INFO] [turtlesim_node-1]: process has finished cleanly [pid 559]
-1742833374.5269830 [INFO] [turtlesim_node-2]: process has finished cleanly [pid 561]
