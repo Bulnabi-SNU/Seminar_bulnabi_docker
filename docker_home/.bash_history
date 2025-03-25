@@ -229,3 +229,12 @@ git add PX4-Autopilot
 cd ..
 git add PX4-Autopilot
 exit
+ls
+pwd
+exit
+ls
+cd PX4-Autopilot/
+ls
+make px4_sitl gazebo-classic
+ls
+exit

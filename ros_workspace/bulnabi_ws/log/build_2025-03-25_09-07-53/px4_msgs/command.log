@@ -1,0 +1,6 @@
+Invoking command in '/home/user/ros_workspace/bulnabi_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user/ros_workspace/bulnabi_ws/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros_workspace/bulnabi_ws/install/px4_msgs
+Invoked command in '/home/user/ros_workspace/bulnabi_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/user/ros_workspace/bulnabi_ws/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros_workspace/bulnabi_ws/install/px4_msgs
+Invoking command in '/home/user/ros_workspace/bulnabi_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user/ros_workspace/bulnabi_ws/build/px4_msgs -- -j8 -l8
+Invoked command in '/home/user/ros_workspace/bulnabi_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/user/ros_workspace/bulnabi_ws/build/px4_msgs -- -j8 -l8
+Invoking command in '/home/user/ros_workspace/bulnabi_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user/ros_workspace/bulnabi_ws/build/px4_msgs
+Invoked command in '/home/user/ros_workspace/bulnabi_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/user/ros_workspace/bulnabi_ws/build/px4_msgs

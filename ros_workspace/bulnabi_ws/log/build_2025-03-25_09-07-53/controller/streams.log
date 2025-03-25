@@ -1,0 +1,52 @@
+[0.631s] Invoking command in '/home/user/ros_workspace/bulnabi_ws/build/controller': PYTHONPATH=/home/user/ros_workspace/bulnabi_ws/build/controller/prefix_override:/home/user/ros_workspace/bulnabi_ws/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros_workspace/bulnabi_ws/build/controller/build --no-deps symlink_data
+[0.720s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.720s] !!
+[0.720s] 
+[0.720s]         ********************************************************************************
+[0.720s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.720s]         versions. Please use the underscore name 'script_dir' instead.
+[0.720s] 
+[0.720s]         This deprecation is overdue, please update your project and remove deprecated
+[0.720s]         calls to avoid build errors in the future.
+[0.720s] 
+[0.720s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.720s]         ********************************************************************************
+[0.720s] 
+[0.720s] !!
+[0.721s]   opt = self.warn_dash_deprecation(opt, section)
+[0.837s] running develop
+[0.837s] /usr/local/lib/python3.8/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.837s] !!
+[0.837s] 
+[0.837s]         ********************************************************************************
+[0.837s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.837s]         Instead, use pypa/build, pypa/installer or other
+[0.837s]         standards-based tools.
+[0.837s] 
+[0.837s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.837s]         ********************************************************************************
+[0.837s] 
+[0.837s] !!
+[0.837s]   easy_install.initialize_options(self)
+[0.957s] running egg_info
+[0.957s] creating controller.egg-info
+[0.967s] writing controller.egg-info/PKG-INFO
+[0.967s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.967s] writing entry points to controller.egg-info/entry_points.txt
+[0.967s] writing requirements to controller.egg-info/requires.txt
+[0.968s] writing top-level names to controller.egg-info/top_level.txt
+[0.969s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.988s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.989s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[1.030s] running build_ext
+[1.031s] Creating /home/user/ros_workspace/bulnabi_ws/install/controller/lib/python3.8/site-packages/controller.egg-link (link to .)
+[1.032s] Installing test script to /home/user/ros_workspace/bulnabi_ws/install/controller/lib/controller
+[1.032s] 
+[1.032s] Installed /home/user/ros_workspace/bulnabi_ws/build/controller
+[1.032s] running symlink_data
+[1.032s] creating /home/user/ros_workspace/bulnabi_ws/install/controller/share/ament_index
+[1.032s] creating /home/user/ros_workspace/bulnabi_ws/install/controller/share/ament_index/resource_index
+[1.032s] creating /home/user/ros_workspace/bulnabi_ws/install/controller/share/ament_index/resource_index/packages
+[1.032s] symbolically linking /home/user/ros_workspace/bulnabi_ws/build/controller/resource/controller -> /home/user/ros_workspace/bulnabi_ws/install/controller/share/ament_index/resource_index/packages
+[1.032s] symbolically linking /home/user/ros_workspace/bulnabi_ws/build/controller/package.xml -> /home/user/ros_workspace/bulnabi_ws/install/controller/share/controller
+[1.055s] Invoked command in '/home/user/ros_workspace/bulnabi_ws/build/controller' returned '0': PYTHONPATH=/home/user/ros_workspace/bulnabi_ws/build/controller/prefix_override:/home/user/ros_workspace/bulnabi_ws/install/controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/user/ros_workspace/bulnabi_ws/build/controller/build --no-deps symlink_data

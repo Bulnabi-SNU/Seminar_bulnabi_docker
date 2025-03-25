@@ -39,4 +39,6 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 # Add ros setup to bashrc (the home folder is completly mounted to host, so no .bashrc)
 RUN echo "source /opt/ros/foxy/setup.bash" >> /etc/bash.bashrc
 
+COPY ./docker_home/ /home/user/
+
 CMD ["/bin/bash"]

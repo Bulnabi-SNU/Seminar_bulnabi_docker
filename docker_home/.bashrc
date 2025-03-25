@@ -40,6 +40,7 @@ case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
 
+
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
@@ -130,6 +131,8 @@ alias sb='source ~/.bashrc'
 alias cba='colcon build --symlink-install'
 alias cbp='colcon build --symlink-install --packages-select'
 alias rosfoxy='source ./install/local_setup.bash'
+
+sudo chmod -R 777 /home/user/.ros/log
 
 #alias cam='ros2 run usb_cam usb_cam_node_exe --ros-args --params-file ~/test_ws/src/usb_cam/config/params_1.yaml'
 #alias yolo='ros2 run yolo_detection yolo_detector'
