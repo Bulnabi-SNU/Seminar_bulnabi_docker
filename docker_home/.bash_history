@@ -220,3 +220,12 @@ export PX4_HOME_ALT=0
 export PX4_HOME_LON=126.342193
 make px4_sitl gazebo-classic_standard_vtol__bulnabi
 exit
+ls
+cd PX4-Autopilot/
+git remote -v
+git submodule update --init --recursive
+git submodule status
+git add PX4-Autopilot
+cd ..
+git add PX4-Autopilot
+exit
