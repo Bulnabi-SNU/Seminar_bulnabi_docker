@@ -39,6 +39,7 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 # Add ros setup to bashrc (the home folder is completly mounted to host, so no .bashrc)
 RUN echo "source /opt/ros/foxy/setup.bash" >> /etc/bash.bashrc
 
-COPY ./docker_home/ /home/user/
+RUN git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+RUN chown -R user:user /home/user
 
 CMD ["/bin/bash"]
