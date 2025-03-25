@@ -4,5 +4,5 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1742837342 614725237) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_ros_init.so: libgazebo_ros_init.so: cannot open shared object file: No such file or directory
-(1742837342 614783336) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_ros_factory.so: libgazebo_ros_factory.so: cannot open shared object file: No such file or directory
+(1742877859 611183391) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_ros_init.so: libgazebo_ros_init.so: cannot open shared object file: No such file or directory
+(1742877859 611238834) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_ros_factory.so: libgazebo_ros_factory.so: cannot open shared object file: No such file or directory

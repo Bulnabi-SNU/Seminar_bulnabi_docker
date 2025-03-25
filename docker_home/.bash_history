@@ -206,3 +206,17 @@ ls
 ros2 run controller test
 quit
 exit
+cd PX4-Autopilot/
+ls
+bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+bash ./Tools/setup/ubuntu.sh
+make px4_sitl gazebo-classic
+make px4_sitl gazebo-classic_standard_vtol__bulnabi
+Export PX4_HOME_LAT=36.661078
+Export PX4_HOME_LON=126.342193
+Export PX4_HOME_ALT=0
+export PX4_HOME_LAT=36.661078
+export PX4_HOME_ALT=0
+export PX4_HOME_LON=126.342193
+make px4_sitl gazebo-classic_standard_vtol__bulnabi
+exit

@@ -4,14 +4,45 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1742837342 615719800) [Msg] Waiting for master.
-(1742837342 625477312) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1742837342 625491785) [Msg] Publicized address: 192.168.0.38
-(1742837342 798812682) [Msg] Loading world file [/home/user/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/empty.world]
-(1742837343 47345878) Init world[default]
-(1742837343 338046575) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: iris::gps0 using gps topic "gps0"
-(1742837343 338103732) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
-(1742837343 468788755) [Msg] Connecting to PX4 SITL using TCP
-(1742837343 468796935) [Msg] Lockstep is enabled
-(1742837343 468802320) [Msg] Speed factor set to: 1
-(1742837343 469244211) [Msg] Using MAVLink protocol v2.0
+(1742877859 612173045) [Msg] Waiting for master.
+(1742877859 621935814) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1742877859 621948237) [Msg] Publicized address: 192.168.45.93
+(1742877859 793656823) [Msg] Loading world file [/home/user/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/bulnabi.world]
+(1742877859 870090801) [Wrn] [OBJLoader.cc:80] Both `d` and `Tr` parameters defined for "SUV_Body". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "SUV_Wheels". Use the value of `d` for dissolve (line 22 in .mtl.)
+
+(1742877859 871008121) Init world[default]
+(1742877860 609353226) [Wrn] [gazebo_airspeed_plugin.cpp:91] [gazebo_airspeed_plugin]: standard_vtol::airspeed using airspeed topic "airspeed"
+(1742877860 609504785) [Msg] [gazebo_airspeed_plugin] Home altitude is set to 0 m AMSL.
+(1742877861 807531089) [Wrn] [gazebo_gst_camera_plugin.cpp:232] [gazebo_gst_camera_plugin] Streaming video to ip: 127.0.0.1 port: 5600
+(1742877861 825696189) [Msg] [Camera manager plugin]: Camera on udp port 14530
+(1742877861 826580309) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_ros_camera.so: libgazebo_ros_camera.so: cannot open shared object file: No such file or directory
+(1742877861 833852632) [Wrn] [msgs.cc:1844] Conversion of sensor type[sonar] not supported.
+(1742877861 840567020) [Wrn] [gazebo_sonar_plugin.cpp:91] [gazebo_sonar_plugin]: standard_vtol::sonar using sonar topic "sonar"
+(1742877861 844352528) [Wrn] [gazebo_gps_plugin.cpp:77] [gazebo_gps_plugin]: standard_vtol::gps using gps topic "gps"
+(1742877861 844418042) [Msg] [gazebo_gps_plugin] Home latitude is set to 36.6611.
+(1742877861 844434858) [Msg] [gazebo_gps_plugin] Home longitude is set to 126.342.
+(1742877861 844443718) [Msg] [gazebo_gps_plugin] Home altitude is set to 0.
+(1742877861 844475365) [Wrn] [gazebo_gps_plugin.cpp:202] [gazebo_gps_plugin] Using default update rate of 5hz 
+(1742877861 940105728) [Err] [Model.cc:1160] Exception occured in the Load function of plugin with name[rosbag] and filename[libgazebo_multirotor_base_plugin.so]. This plugin will not run.
+(1742877861 940118827) Exception occured in the Load function of plugin with name[rosbag] and filename[libgazebo_multirotor_base_plugin.so]. This plugin will not run.
+(1742877861 951363745) [Msg] [gazebo_groundtruth_plugin] Home latitude is set to 36.6611.
+(1742877861 951388432) [Msg] [gazebo_groundtruth_plugin] Home longitude is set to 126.342.
+(1742877861 951394139) [Msg] [gazebo_groundtruth_plugin] Home altitude is set to 0.
+(1742877861 958416211) [Msg] [gazebo_barometer_plugin] Home altitude is set to 0 m AMSL.
+(1742877861 964261805) [Msg] Connecting to PX4 SITL using TCP
+(1742877861 964270426) [Msg] Lockstep is enabled
+(1742877861 964276148) [Msg] Speed factor set to: 1
+(1742877861 964769253) [Wrn] [gazebo_mavlink_interface.cpp:152] No identifier on joint. Using 0 as default sensor ID
+(1742877861 964840246) [Wrn] [gazebo_mavlink_interface.cpp:152] No identifier on joint. Using 0 as default sensor ID
+(1742877861 964870628) [Wrn] [gazebo_mavlink_interface.cpp:152] No identifier on joint. Using 0 as default sensor ID
+(1742877861 964934750) [Msg] Using MAVLink protocol v2.0
+(1742877861 971271204) [Wrn] [gazebo_gimbal_controller_plugin.cpp:217] joint_yaw [typhoon_h480::cgo3_vertical_arm_joint] does not exist?
+(1742877861 971281018) [Wrn] [gazebo_gimbal_controller_plugin.cpp:270] joint_roll [typhoon_h480::cgo3_horizontal_arm_joint] does not exist?
+(1742877861 971287854) [Wrn] [gazebo_gimbal_controller_plugin.cpp:323] joint_pitch [typhoon_h480::cgo3_camera_joint] does not exist?
+(1742877861 971307051) [Wrn] [gazebo_gimbal_controller_plugin.cpp:366] [gazebo_gimbal_controller_plugin] Streaming gimbal mavlink stream to ip: 127.0.0.1 port: 13030
+(1742877864 505372143) [Dbg] [gazebo_camera_manager_plugin.cpp:615] Send camera info
+(1742877865 609079528) [Wrn] [msgs.cc:1844] Conversion of sensor type[sonar] not supported.
+(1742877865 888524320) [Wrn] [msgs.cc:1844] Conversion of sensor type[sonar] not supported.
+(1742877866 656101118) [Dbg] [gazebo_camera_manager_plugin.cpp:708] Send videostream information
+(1742877867 293830435) [Dbg] [gazebo_camera_manager_plugin.cpp:797] Send capture status

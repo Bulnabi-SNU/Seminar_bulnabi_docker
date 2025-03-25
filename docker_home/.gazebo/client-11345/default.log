@@ -4,10 +4,13 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1742837346 505744443) [Msg] Waiting for master.
-(1742837346 510307184) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1742837346 510362420) [Msg] Publicized address: 192.168.0.38
-(1742837346 510578573) Loaded .ini file from: "/home/user/.gazebo/gui.ini"
-(1742837346 616754929) [Wrn] [GuiIface.cc:114] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
-(1742837348 743527021) No spacenav daemon found. Spacenav functionality is disabled
-(1742837348 749060256) Loaded GUI plugin[libgazebo_user_camera_plugin.so]
+(1742877863 595704499) [Msg] Waiting for master.
+(1742877863 606255735) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1742877863 606316657) [Msg] Publicized address: 192.168.45.93
+(1742877863 606531654) Loaded .ini file from: "/home/user/.gazebo/gui.ini"
+(1742877863 708432749) [Wrn] [GuiIface.cc:114] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-user'
+(1742877865 886926736) No spacenav daemon found. Spacenav functionality is disabled
+(1742877865 894421262) Loaded GUI plugin[libgazebo_user_camera_plugin.so]
+(1742877865 968748825) [Wrn] [OBJLoader.cc:80] Both `d` and `Tr` parameters defined for "SUV_Body". Use the value of `d` for dissolve (line 8 in .mtl.)
+Both `d` and `Tr` parameters defined for "SUV_Wheels". Use the value of `d` for dissolve (line 22 in .mtl.)
+
